@@ -51,7 +51,7 @@ root.title("UTC")
 root.geometry("1000x500")
 root.config(bg="#e5f3ec")
 
-logo = Image.open("C:/Users/HP/Pictures/logoutc.png")  
+logo = Image.open("C:/Users/HP/Pictures/logoutc.png") #cambia la ubicacion copia la ruta 
 logo = logo.resize((200, 130))
 logo_tk = ImageTk.PhotoImage(logo)
 
